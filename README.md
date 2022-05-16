@@ -24,8 +24,7 @@ int main()
        scanf("%d", &d);
        //if the link list not the last node
        if (i!= n-1){
-       
-       current->data = d;
+        current->data = d;
        temp = current;
        current = malloc(sizeof(node));
        temp->link = current;
